@@ -8,3 +8,7 @@ end
 -- Remap the leader character
 vim.g.mapleader = ' '
 
+-- Easier maps for project view
+vim.keymap.set('n', '<leader>dv', vim.cmd.Ex, { desc = 'Directory view' })
+vim.keymap.set('n', '<leader>pv', ':e .<CR>', { desc = 'Project View' })
+

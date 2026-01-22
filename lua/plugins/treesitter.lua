@@ -3,4 +3,10 @@ require('nvim-treesitter').setup {
   highlight = {
     enable = true,
   },
+  install_info = {
+	  compiler = 'clang'
+  }
 }
+
+vim.env.ARCHFLAGS = "-arch arm64"
+
