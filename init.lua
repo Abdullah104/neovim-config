@@ -1,6 +1,6 @@
 require('config.line_numbers')
-require('config.remaps')
-require('config.indentation')
+require('keymap.remaps')
+require('indent.indentation')
 require('plug')
-require('theme')
+require('colors.theme')
 
